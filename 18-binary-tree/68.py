@@ -1,3 +1,5 @@
+# Time complexity: O(n)
+# Space complexity: O(1)
 def solve(nums, target):
     left, right = 0, len(nums) - 1
 

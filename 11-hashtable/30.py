@@ -1,6 +1,5 @@
-# sliding window
-# Time complexity - O(n)
-# Space complexity - O(min(m+n))
+# Time complexity: O(n)
+# Space complexity: O(min(m+n))
 def solve(s):
 	left, right, max_length = 0, 0, 0
 	seen = set()
